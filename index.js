@@ -22,7 +22,7 @@ function fetchWeather() {
 }
 
 async function getWeather(lat, lon) {
-    const apiKey = '83199ab8906693f93547f28bedff65d6';
+    const apiKey = '';
     const apiCall = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
     const response = await fetch(apiCall);
